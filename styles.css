@@ -1,0 +1,142 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+#menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #F0F319;  
+    padding-right: 60px;
+    font-weight: 700;
+}
+
+.img__pato {
+    width: 400px;
+}
+ ul {
+    display: flex;
+    gap: 10px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .img__pato {
+    width: 400px;
+  }
+  
+  .container__header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    padding-top: 112px;
+  }
+
+  .meu_botao{
+    background-color: yellow;
+    color: black;
+    padding:14px 25px ;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    float: left;
+
+  }
+
+  .meu_botao:hover {
+    background-color: yellowgreen;
+    display: flexbox;
+
+  }
+
+  .container__texto {
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 1.125rem;
+  }
+  .container__texto-Front {
+    color:#F0F319 !important;
+    -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: black;
+  }
+
+
+ .container__curriculo{
+  background-color: yellow;
+    color: black;
+    padding:14px 25px ;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-weight: bold;
+ }
+
+ .container__curriculo:hover {
+  background-color: yellowgreen;
+  display: flexbox;}
+
+ h4 {
+  font-weight: normal;
+ }
+
+ #sobre-mim {
+    background-color: aliceblue;
+    margin: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 300px;
+
+ }
+
+ .container__apresentacao {
+  display: flexbox;
+  align-items: flex-end;
+  width: 60%;
+
+ }
+
+ .seila{
+  position: relative;
+ }
+
+ .patodocaralho{
+  width: 350px;
+  position: absolute;
+  right:75px;
+  bottom: -140px;
+ }
+
+ .titulo {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+ }
+
+ .container__skills {
+  background-color: black;
+  width: 100px;
+ }
+ 
+
